@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  font-family: 'Roboto', sans-serif ;}
+body{
+  display: flex;
+  flex-direction: column;
+}
+a *{
+  text-decoration: none;
+  outline: none;
+}
+header{
+  font-family: "Ubuntu" , sans-serif;
+  background-color: #2A6AD4;
+  height: auto;
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+.businessarea {
+  width: 50%;
+  float: left;
+}
+
+.businesslogo {
+  width: 75px;
+  float: left;
+  margin-right: 10px;
+}
+
+.businessname {
+  width: calc(100% - 85px);
+  float: left;
+  padding: 5px 0;
+}
+
+.businessname h1 {
+  line-height: 1.5;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.businessname h1 span {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.Main-Body{
+  margin-top: 2%;
+}
+
+.card1{
+  height: 180px;
+  border: 5px solid #30ff30 ;
+  color: #000000;
+}
+.card2{
+  height: 180px;
+  border: 5px solid #783dd8;
+  color: #000000;
+}
+.Main-Information{
+  margin-top: 3%;
+}
+
+.graph{
+  margin-top: 3%;
+}
+.sub-heading{
+background-color: #78fc78;
+color: white;
+height: 70px;
+padding: 2%;
+}
+.bar-title{
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+.download-bar {
+  text-decoration: none;
+  outline: none;
+  float: right;
+}
+
+footer{
+  background-color:#9e9d9d ;
+  color: #ffffff;
+  padding: 2%;
+  margin-top: 1%;
+}
+
+/* for slider */
+.slider {
+  width: 100%;
+  
+}
+
+.slick-slide {
+margin: 0px 10px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-slide {
+transition: all ease-in-out .3s;
+}
+

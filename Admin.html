@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap");
+    </style>
+    <title>Admin dashboard</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="main-header">
+          <div class="businessarea">
+            <div class="businesslogo">
+              <img
+                src="./assets/government-of-nepal-embassy-of-nepal-in-washington-d-c-local-government-poultry-farming-in-nepal-48ec827f3484e39aae1422fe8ae110ae.png"
+                alt="logo"
+              />
+            </div>
+            <div class="businessname">
+              <h1>
+                Ministry of Education, Science and Technology
+                <span>Unified Portal</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <Middle class="Main-Body">
+      <div class="container">
+        <div class="tab">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Department</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Division</a>
+            </li>
+          </ul>
+        </div>
+        <div class="Main-Information">
+          <section class="center slider">
+            <a href="./neb.html">
+              <div class="card card1">
+                <div class="card-body">
+                  <h5 class="card-title">National Examination Board (NEB)</h5>
+                  <p class="card-text">Sample Progress</p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="card card1">
+                <div class="card-body">
+                  <h5 class="card-title">National Examination Board (NEB)</h5>
+                  </p><p class="card-text">SAMPLE PROGRESS 1<br>
+                    Task Completed 60%<br>
+                    1 project completed
+                </p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="card card1">
+                <div class="card-body">
+                  <h5 class="card-title">National Examination Board (NEB)</h5> 
+                  <p class="card-text">SAMPLE PROGRESS 1<br>
+                    Task Completed 60%<br>
+                    1 project completed
+
+                </p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="card card2">
+                <div class="card-body">
+                  <h5 class="card-title">National Examination Board (NEB)</h5>
+                  <p class="card-text">SAMPLE PROGRESS 1<br>
+                    Task Completed 60%<br>
+                    1 project completed
+
+                </p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="card card2">
+                <div class="card-body">
+                  <h5 class="card-title">National Examination Board (NEB)</h5>
+                  <p class="card-text">SAMPLE PROGRESS 1<br>
+                    Task Completed 60%<br>
+                    1 project completed
+
+                </p>
+                </div>
+              </div>
+            </a>
+          </section>
+        </div>
+        <div class="graph">
+          <div class="sub-heading">
+            <div class="bar-title">
+              <p>Progress chart of the project</p></div>
+              <div class="download-bar">
+                <i class="fas fa-long-arrow-alt-down"></i>
+                <p><a href="">Download bar</a></p>
+              </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col">
+                <div id="piechart" style="height: 300px;width:400px;"></div>
+              </div>
+              <div class="col">
+                <div id="curve_chart" style="height: 300px;width:400px;"></div>
+              </div>
+              <div class="col">
+                <div id="barchart_values" style="height: 300px;width:400px;"></div>
+              </div>
+              <div class="col">
+                <div id="columnchart_values" style="height: 300px;width:400;"></div>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </Middle>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <h6>
+            &copy; 2020 Unified Portal,
+            <span
+              > Ministry of Education, Science and Technology, All Right Reserved</span
+            >
+          </h6>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="./Main.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./google.chart.js"
+    ></script>
+    <script type="text/javascript" src="./Admin.js"> 
+     
+    </script>
+  </body>
+</html>
